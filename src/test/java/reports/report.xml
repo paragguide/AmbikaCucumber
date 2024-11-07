@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.939" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Test cases" name="userid test" time="29.647">
+<system-out><![CDATA[
+Given i open "chrome" and get url "https://www.amazon.in" and create report "AmazonLogin" for testname "LoginTest".passed
+And i click on signin link..................................................passed
+When I enter valid userid "paragguide@yahoo.co.in"..........................passed
+And click continue button...................................................passed
+Then I validate error message should not come...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Test cases" name="password test" time="24.91">
+<system-out><![CDATA[
+Given userid is valid.......................................................passed
+When entered a valid password that is "RMinfotech12#&&".....................passed
+Then i should login.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
